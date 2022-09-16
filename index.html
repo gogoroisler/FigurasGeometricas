@@ -17,7 +17,7 @@
 
      <!-- Respuesta -->
      <div class="answer">
-        <p>El área del cuadrado es: 45cm</p>
+        <p id="result"></p>
      </div>
 
      <!-- Seccion cajas -->
@@ -31,12 +31,11 @@
                 <input 
                 class="box-main__input" 
                 type="number" 
-                name="nombre" 
-                value="side" 
-                id="side"
+                name="inputSide" 
+                id="inputSide"
                 placeholder="Ingresar lados">
-                <button class="box-main__btn" type="button">Perimetro</button>
-                <button class="box-main__btn" type="button">Area</button>
+                <button class="box-main__btn" type="button" id="btnPerimSq">Perimetro</button>
+                <button class="box-main__btn" type="button" id="btnAreaSq">Area</button>
             </div>
         </div>
         <div class="box">
@@ -48,41 +47,36 @@
                 <input 
                 class="box-main__input" 
                 type="number" 
-                name="nombre" 
-                value="side" 
-                id="side"
+                name="inputSide1" 
+                id="inputSide1"
                 placeholder="Ingresar lado 1">
                 <input 
                 class="box-main__input" 
                 type="number" 
-                name="nombre" 
-                value="side" 
-                id="side"
+                name="inputSide2" 
+                id="inputSide2"
                 placeholder="Ingresar lado 2">
                 <input 
                 class="box-main__input" 
                 type="number" 
-                name="nombre" 
-                value="side" 
-                id="side"
+                name="inputSide3" 
+                id="inputSide3"
                 placeholder="Ingresar lado 3">
-                <button class="box-main__btn" type="button">Perimetro</button>
+                <button class="box-main__btn" type="button" id="btnPerimTri">Perimetro</button>
                 <p class="box-main__text">¿Cuánto mide la base y la altura?</p>
                 <input 
                 class="box-main__input" 
                 type="number" 
-                name="nombre" 
-                value="side" 
-                id="side"
+                name="inputBase" 
+                id="inputBase"
                 placeholder="Ingresar base">
                 <input 
                 class="box-main__input" 
                 type="number" 
-                name="nombre" 
-                value="side" 
-                id="side"
+                name="inputAltura" 
+                id="inputAltura"
                 placeholder="Ingresar altura">
-                <button class="box-main__btn" type="button">Area</button>
+                <button class="box-main__btn" type="button" id="btnAreaTri">Area</button>
             </div>
         </div>
         <div class="box">
@@ -94,18 +88,17 @@
                 <input 
                 class="box-main__input" 
                 type="number" 
-                name="nombre" 
-                value="side" 
-                id="side"
+                name="inputRadio"  
+                id="inputRadio"
                 placeholder="Ingresar el radio">
-                <button class="box-main__btn" type="button">Perimetro</button>
-                <button class="box-main__btn" type="button">Area</button>
-                <button class="box-main__btn" type="button">Diametro</button>
+                <button class="box-main__btn" type="button" id="btnPerimCir">Perimetro</button>
+                <button class="box-main__btn" type="button" id="btnAreaCir">Area</button>
+                <button class="box-main__btn" type="button" id="btnDiamCir">Diametro</button>
             </div>
         </div>
      </section>
 
     
-
+<script src="geometrica.js"></script>
 </body>
 </html>
